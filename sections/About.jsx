@@ -18,9 +18,24 @@ const About = () => {
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
         <TypingText title="| درباره متاورس" textStyles="text-center" />
-        <motion.p>
-          
+        <motion.p 
+        variants={fadeIn("up", "tween", 0.2, 1)}
+        className='mt-[8px] font-normal text-[20px] text-center text-secondary-white sm:text-[12px]'
+        >
+        <span className="font-extrabold text-white">متاورس</span> {' '}یک چیز جدید در آینده است، جایی که می توانید از دنیای مجازی با احساس واقعی بودن آن لذت ببرید، می توانید آنچه را که در این دنیای فراجهانی احساس می کنید احساس کنید، زیرا این واقعاً
+        <span className="font-extrabold text-white">
+        جنون فراجهان
+        </span>{' '}
+        {' '} امروز فقط با استفاده از
+        <span className="font-extrabold text-white">VR</span>{' '}دستگاه‌هایی که می‌توانید به راحتی دنیای فراجهانی را که می‌خواهید کشف کنید، رویاهای خود را به واقعیت تبدیل کنید. اجازه دهید
+        <span className="font-extrabold text-white">کاوش کنید</span> در جنون متاورس با اسکرول کردن به سمت پایین 
         </motion.p>
+        <motion.img
+        variants={fadeIn("up", "tween", 0.3, 1)}
+        src="/arrow-down.svg" 
+        alt='arrow down'
+        className='mt-[28px] w-[18px] h-[28px] object-contain'
+        />
       </motion.div>
     </section>
   )
