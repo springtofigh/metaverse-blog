@@ -1,18 +1,8 @@
 export const exploreWorlds = [
   {
-    id: 'جهان اول',
-    imgUrl: '/images/planet-01.png',
-    title: 'هاگوارتز',
-  },
-  {
-    id: 'جهان دوم',
-    imgUrl: '/images/planet-02.png',
-    title: 'دنیای وارونه',
-  },
-  {
-    id: 'جهان سوم',
-    imgUrl: '/images/planet-03.png',
-    title: 'هرم کادیروجو',
+    id: 'جهان پنجم',
+    imgUrl: '/images/planet-05.png',
+    title: 'آزمایشگاه هاوکینز',
   },
   {
     id: 'جهان چهارم',
@@ -20,9 +10,19 @@ export const exploreWorlds = [
     title: 'جزیره بهشت',
   },
   {
-    id: 'جهان پنجم',
-    imgUrl: '/images/planet-05.png',
-    title: 'آزمایشگاه هاوکینز',
+    id: 'جهان سوم',
+    imgUrl: '/images/planet-03.png',
+    title: 'هرم کادیروجو',
+  },
+  {
+    id: 'جهان دوم',
+    imgUrl: '/images/planet-02.png',
+    title: 'دنیای وارونه',
+  },
+  {
+    id: 'جهان اول',
+    imgUrl: '/images/planet-01.png',
+    title: 'هاگوارتز',
   },
 ];
 
