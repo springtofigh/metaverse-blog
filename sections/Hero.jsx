@@ -16,7 +16,7 @@ const Hero = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div className="flex justify-center items-center flex-col z-10 relative">
+        <div className="relative top-6 flex justify-center items-center flex-col z-10">
           <motion.h1
           variants={textVariant(1.1)}
           className={styles.heroHeading}
