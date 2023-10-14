@@ -10,7 +10,7 @@ import styles from '../styles';
 
 
 const Explore = () => {
-  const [active , setActive] = useState("planet-02")
+  const [active , setActive] = useState("جهان دوم")
   return (
     <div className={`${styles.paddings}`} id="explore">
       <motion.div
