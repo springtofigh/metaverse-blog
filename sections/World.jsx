@@ -37,14 +37,14 @@ const World = () => {
         <div className='absolute bottom-40 right-5 p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:bottom-20 lg:right-20 sm:w-[70px] sm:h-[70px] sm:p-[6px]'>
           <img src='/images/people-01.png' alt='people-1' className='w-full h-full' />
         </div>
-        <div className='absolute bottom-60 right-5 w-[70px] h-[70px] p-[6px] bg-slate-500 rounded-[24px] sm:top-5 sm:right-40'>
-          <img src='/images/map-poster2.png' alt='map-poster' className='w-full h-full' />
+        <div className='absolute bottom-60 right-5 w-[70px] h-[60px] p-[6px] bg-slate-500 rounded-[24px] sm:top-5 sm:right-40 lg:w-[180px] lg:h-[136px]'>
+          <img src='/images/map-poster2.png' alt='map-poster-2' className='w-full h-full' />
         </div>
         <div className='absolute top-[35%] left-2 p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:top-5 lg:left-20 sm:w-[70px] sm:h-[70px] sm:p-[6px]'>
           <img src='/images/people-02.png' alt='people-2' className='w-full h-full' />
         </div>
-        <div className='absolute top-[45%] left-[15%] w-[70px] h-[70px] p-[6px] bg-slate-500 rounded-[24px] sm:top-[35%] sm:left-[20%]'>
-          <img src='/images/map-poster1.png' alt='people-2' className='w-full h-full' />
+        <div className='absolute top-[45%] left-[15%] w-[70px] h-[60px] p-[6px] bg-slate-500 rounded-[24px] sm:top-[35%] sm:left-[20%] lg:w-[180px] lg:h-[136px]'>
+          <img src='/images/map-poster1.png' alt='map-poster-1' className='w-full h-full' />
         </div>
         <div className='absolute top-[45%] left-[45%] p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:top-1/2 lg:left-[48%] sm:w-[70px] sm:h-[70px] sm:p-[6px]'>
           <img src='/images/people-03.png' alt='people-3' className='w-full h-full' />
