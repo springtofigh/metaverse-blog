@@ -32,7 +32,7 @@ const Navbar = () => {
         <img className="w-[24px] h-[24px] object-contain" src="/images/search.svg" alt="search"/>
       </div>
     </motion.nav> 
-    { showSidebar && <Sidebar /> }
+    { showSidebar && <Sidebar handlemenuClick={handlemenuClick} /> }
 </>
   )
 }
