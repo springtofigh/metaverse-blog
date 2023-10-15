@@ -8,7 +8,7 @@ import { slideIn, staggerContainer, textVariant } from '../utils/motion';
 
 const Hero = () => {
   return (
-    <section className={`${styles.yPaddings} pl-6 sm:pl-16`}>
+    <section className={`${styles.yPaddings} pl-6 sm:pl-16`} id="home">
       <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -45,7 +45,7 @@ const Hero = () => {
           />
 
           <a href="#explore">
-            <div className="flex justify-start w-full pr-[40px] -mt-[-50px] relative z-10 sm:-mt-[70px]">
+            <div className="flex justify-start w-full pr-[40px] -mt-[50px] relative z-10 sm:-mt-[70px]">
               <img className="w-[100px] h-[100px] sm:w-[155px] sm:h-[155px]" src="/images/stamp.png" alt="stamp"/>
             </div>
           </a>
