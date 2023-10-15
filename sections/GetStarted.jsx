@@ -9,7 +9,7 @@ import { staggerContainer, fadeIn, planetVariants } from '../utils/motion';
 
 const GetStarted = () => {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="know-metavers">
       <motion.div
       variants={staggerContainer}
       initial="hidden"
