@@ -8,7 +8,7 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 
 const About = () => {
   return (
-    <section className={`${styles.paddings} relative z-10`}>
+    <section className={`${styles.paddings} relative z-10`} id="about">
       <motion.div
       variants={staggerContainer}
       initial="hidden"
@@ -21,13 +21,13 @@ const About = () => {
         variants={fadeIn("up", "tween", 0.2, 1)}
         className='mt-[8px] font-normal text-[20px] text-center text-secondary-white sm:text-[32px]'
         >
-        <span className="font-extrabold text-white">متاورس</span> {' '}یک چیز جدید در آینده است، جایی که می توانید از دنیای مجازی با احساس واقعی بودن آن لذت ببرید، می توانید آنچه را که در این دنیای فراجهانی احساس می کنید احساس کنید، زیرا این واقعاً
+        <span className="font-extrabold text-white"> متاورس </span> {' '}یک چیز جدید در آینده است، جایی که می توانید از دنیای مجازی با احساس واقعی بودن آن لذت ببرید، می توانید آنچه را که در این دنیای فراجهانی احساس می کنید احساس کنید، زیرا این واقعاً
         <span className="font-extrabold text-white">
         جنون فراجهان
         </span>{' '}
         {' '} امروز فقط با استفاده از
-        <span className="font-extrabold text-white">VR</span>{' '}دستگاه‌هایی که می‌توانید به راحتی دنیای فراجهانی را که می‌خواهید کشف کنید، رویاهای خود را به واقعیت تبدیل کنید. اجازه دهید
-        <span className="font-extrabold text-white">کاوش کنید</span> در جنون متاورس با اسکرول کردن به سمت پایین 
+        <span className="font-extrabold text-white"> VR </span>{' '}دستگاه‌هایی که می‌توانید به راحتی دنیای فراجهانی را که می‌خواهید کشف کنید، رویاهای خود را به واقعیت تبدیل کنید. اجازه دهید
+        <span className="font-extrabold text-white"> کاوش کنید </span> در جنون متاورس با اسکرول کردن به سمت پایین 
         </motion.p>
         <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}
