@@ -16,7 +16,7 @@ const Sidebar = ({ handlemenuClick }) => {
             isSidebarOpen 
             && 
             <div
-            class="fixed top-0 bottom-0 w-[300px] right-0 p-2 text-center bg-gray-900 overflow-y-auto z-20"
+            class="fixed top-0 bottom-0 w-[300px] right-0 p-2 text-center bg-gray-900 overflow-y-auto z-30"
             >
                 <div class="text-gray-100 text-xl">
                 <div class="p-2.5 mt-1 flex items-center justify-between">
