@@ -21,7 +21,7 @@ const Hero = () => {
 
       <motion.div 
       variants={textVariant(1.1)}
-      className='hidden md:flex flex-col items-start mr-7 relative top-3 lg:top-[150px] gap-6'>
+      className='hidden md:flex flex-col items-start mr-7 relative top-3 lg:top-[150px] gap-6 z-20'>
       {
         heroSocials.map((heroSocial) => (
           <img 
