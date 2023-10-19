@@ -1,3 +1,22 @@
+export const heroSocials = [
+  {
+    name: 'reddit',
+    url: '/images/reddit.svg',
+  },
+  {
+    name: 'discord',
+    url: '/images/discord.svg',
+  },
+  {
+    name: 'twitter',
+    url: '/images/twitter.svg',
+  },
+  {
+    name: 'instagram',
+    url: '/images/instagram.svg',
+  },
+];
+
 export const exploreWorlds = [
   {
     id: 'جهان پنجم',

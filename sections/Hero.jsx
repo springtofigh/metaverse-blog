@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import { heroSocials } from '../constants';
 
 import styles from '../styles';
 import { slideIn, staggerContainer, textVariant } from '../utils/motion';
@@ -16,6 +17,23 @@ const Hero = () => {
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
+
+
+      <motion.div 
+      variants={textVariant(1.1)}
+      className='hidden md:flex flex-col items-start mr-7 relative top-3 lg:top-[150px] gap-6'>
+      {
+        heroSocials.map((heroSocial) => (
+          <img 
+          key={heroSocial.name}
+          src={heroSocial.url} 
+          alt={heroSocial.name}
+          className='w-[24px] h-[24px] object-contain cursor-pointer'
+          />
+          ))
+      }
+      </motion.div>
+
         <div className="relative top-6 flex justify-center items-center flex-col z-10">
           <motion.h1
           variants={textVariant(1.1)}
