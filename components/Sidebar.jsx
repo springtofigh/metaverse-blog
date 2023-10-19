@@ -5,6 +5,8 @@ import Link from 'next/link';
 
 const Sidebar = ({ handlemenuClick }) => {
     const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+    const [bgBlackOverly, setBgBlackOverly] = useState(false);
+
 
     const toggleSidebar = () => {
         setIsSidebarOpen(!isSidebarOpen);
@@ -15,8 +17,9 @@ const Sidebar = ({ handlemenuClick }) => {
         {
             isSidebarOpen 
             && 
+            <div className='overlay z-30' onClick={() => setBgBlackOverly(true)}>
             <div
-            class="fixed top-0 bottom-0 w-[300px] right-0 p-2 text-center bg-gray-900 overflow-y-auto z-30"
+            class="fixed top-0 bottom-0 w-[300px] right-0 p-2 text-center bg-gray-900 overflow-y-auto"
             >
                 <div class="text-gray-100 text-xl">
                 <div class="p-2.5 mt-1 flex items-center justify-between">
@@ -83,6 +86,7 @@ const Sidebar = ({ handlemenuClick }) => {
                     </span>
                     </Link>
                 </div>
+            </div>
             </div>
         }
     </>
