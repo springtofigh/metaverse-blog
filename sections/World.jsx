@@ -34,19 +34,19 @@ const World = () => {
         className='w-full h-full object-contain'
         />
 
-        <div className='absolute bottom-40 right-5 p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:bottom-20 lg:right-20 sm:w-[70px] sm:h-[70px] sm:p-[6px]'>
+        <div className='absolute bottom-40 right-5 p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:bottom-20 lg:right-20 md:w-[70px] md:h-[70px] sm:p-[6px] sm:bottom-[190px] sm:right-10'>
           <img src='/images/people-01.png' alt='people-1' className='w-full h-full' />
         </div>
-        <div className='absolute bottom-60 right-5 w-[70px] h-[60px] p-[6px] bg-slate-500 rounded-[24px] sm:top-5 sm:right-40 lg:w-[180px] lg:h-[136px]'>
+        <div className='absolute top-40 right-8 w-[70px] h-[60px] p-[6px] bg-slate-500 rounded-[24px] sm:top-30 sm:right-24 md:w-[140px] md:h-[116px] lg:w-[180px] lg:h-[136px] md:top-[120px] md:right-10 lg:top-[80px] lg:right-40'>
           <img src='/images/map-poster2.png' alt='map-poster-2' className='w-full h-full' />
         </div>
-        <div className='absolute top-[35%] left-2 p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:top-5 lg:left-20 sm:w-[70px] sm:h-[70px] sm:p-[6px]'>
+        <div className='absolute top-[35%] left-2 p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:top-[70px] lg:left-[90px] md:w-[70px] md:h-[70px] sm:p-[6px] sm:top-[160px] sm:left-8'>
           <img src='/images/people-02.png' alt='people-2' className='w-full h-full' />
         </div>
-        <div className='absolute top-[45%] left-[15%] w-[70px] h-[60px] p-[6px] bg-slate-500 rounded-[24px] sm:top-[35%] sm:left-[20%] lg:w-[180px] lg:h-[136px]'>
+        <div className='absolute top-[45%] left-[15%] w-[70px] h-[60px] p-[6px] bg-slate-500 rounded-[24px] sm:top-[35%] sm:left-[20%] md:w-[140px] md:h-[116px] lg:w-[180px] lg:h-[136px]'>
           <img src='/images/map-poster1.png' alt='map-poster-1' className='w-full h-full' />
         </div>
-        <div className='absolute top-[45%] left-[45%] p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:top-1/2 lg:left-[48%] sm:w-[70px] sm:h-[70px] sm:p-[6px]'>
+        <div className='absolute top-[45%] left-[45%] p-[4px] w-[40px] h-[40px] bg-slate-500 rounded-full lg:top-1/2 lg:left-[48%] md:w-[70px] md:h-[70px] sm:p-[6px]'>
           <img src='/images/people-03.png' alt='people-3' className='w-full h-full' />
         </div>
       </motion.div>
