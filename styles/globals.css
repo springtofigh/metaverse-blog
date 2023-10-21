@@ -95,6 +95,12 @@
   );
 }
 
+.pin {
+  border-radius: 60px 60px 0px 60px ;
+  transform: rotate(45deg);
+  z-index:-1;
+} 
+
 .feedback-gradient {
   position: absolute;
   width: 200px;
