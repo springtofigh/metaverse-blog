@@ -33,7 +33,7 @@ const Sidebar = ({ handlemenuClick }) => {
                 <div class="h-[1px] bg-gray-600 my-2"></div>
                 </div>
                 <div
-                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-blue-600"
+                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-violet-800"
                 >
                     <Link href="#home" onClick={toggleSidebar}>
                     <span class="font-bold text-[15px] ml-4 text-gray-200">
@@ -42,7 +42,7 @@ const Sidebar = ({ handlemenuClick }) => {
                     </Link>
                     </div>
                 <div
-                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-blue-600"
+                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-violet-800"
                 >
                     <span class="font-bold text-[15px] ml-4 text-gray-200">
                     <Link href="#about" onClick={toggleSidebar}>
@@ -51,7 +51,7 @@ const Sidebar = ({ handlemenuClick }) => {
                     </span>
                 </div>
                 <div
-                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-blue-600"
+                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-violet-800"
                 >
                     <Link href="#explore" onClick={toggleSidebar}>
                     <span class="font-bold text-[15px] ml-4 text-gray-200">
@@ -60,7 +60,7 @@ const Sidebar = ({ handlemenuClick }) => {
                     </Link>
                 </div>
                 <div
-                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-blue-600"
+                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-violet-800"
                 >
                     <Link href="#know-metavers" onClick={toggleSidebar}>
                     <span class="font-bold text-[15px] ml-4 text-gray-200">
@@ -69,7 +69,7 @@ const Sidebar = ({ handlemenuClick }) => {
                     </Link>
                 </div>
                 <div
-                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-blue-600"
+                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-violet-800"
                 >
                     <Link href="#newest" onClick={toggleSidebar}>
                     <span class="font-bold text-[15px] ml-4 text-gray-200">
@@ -78,7 +78,7 @@ const Sidebar = ({ handlemenuClick }) => {
                     </Link>
                 </div>
                 <div
-                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-blue-600"
+                class="flex items-center p-2.5 mt-3 px-4 rounded-md duration-300 cursor-pointer text-white hover:bg-violet-800"
                 >
                     <Link href="#articles" onClick={toggleSidebar}>
                     <span class="font-bold text-[15px] ml-4 text-gray-200">
