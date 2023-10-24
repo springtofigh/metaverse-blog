@@ -34,12 +34,16 @@ const World = () => {
         className='w-full h-full object-contain'
         />
 
+          {/* bg-gradient-to-b from-rose-400 to-fuchsia-700 */}
+          {/* bg-gradient-to-b from-cyan-700 to-blue-900 */}
         <div className='pin absolute bottom-40 right-5 p-[4px] w-[40px] h-[40px] bg-zinc-600 rounded-full rotate-45 lg:bottom-20 lg:right-24 md:w-[70px] md:h-[70px] sm:p-[6px] sm:bottom-[190px] sm:right-10'>
           <img src='/images/people-01.png' alt='people-1' className='w-full h-full -rotate-45' />
           <div className='pin bg-zinc-600' />
         </div>
+
         <div className='absolute top-40 right-8 w-[70px] h-[60px] p-[6px] bg-zinc-600 rounded-[24px] sm:top-30 sm:right-24 md:w-[140px] md:h-[116px] lg:w-[180px] lg:h-[136px] md:top-[120px] md:right-10 lg:top-[80px] lg:right-40'>
-          <img src='/images/map-poster2.png' alt='map-poster-2' className='w-full h-full' />
+        <div className="absolute w-[100%] inset-0 map2-gradient"/>
+          <img src='/images/map-poster2.png' alt='map-poster-2' className='w-full h-full shadow-lg' />
           <div className='hidden mt-[-60px] px-3 md:block'>
           <div className='flex items-center justify-between'>
             <img src='/images/people-06.png' alt="people-6"/>
@@ -59,7 +63,8 @@ const World = () => {
           <div className='pin bg-zinc-600' />
         </div>
         <div className='absolute top-[45%] left-[15%] w-[70px] h-[60px] p-[6px] bg-zinc-600 rounded-[24px] sm:top-[45%] sm:left-[20%] md:w-[140px] md:h-[116px] lg:w-[180px] lg:h-[136px]'>
-          <img src='/images/map-poster1.png' alt='map-poster-1' className='w-full h-full' />
+        <div className="absolute w-[100%] inset-0 map1-gradient"/>
+            <img src='/images/map-poster1.png' alt='map-poster-1' className='w-full h-full shadow-lg' />
           <div className='hidden mt-[-60px] px-3 md:block'>
           <div className='flex items-center justify-between'>
             <img src='/images/people-06.png' alt="people-6"/>

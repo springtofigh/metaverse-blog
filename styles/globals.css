@@ -95,6 +95,16 @@
   );
 }
 
+.map1-gradient {
+  background: linear-gradient(180deg, #D46062 0%, #880383 100%);
+  filter: blur(100px)
+}
+
+.map2-gradient {
+  background: linear-gradient(180deg, #05776E 0%, #09597E 100%);
+  filter: blur(100px)
+}
+
 .pin {
   border-radius: 70px 70px 30px 70px ;
 } 
