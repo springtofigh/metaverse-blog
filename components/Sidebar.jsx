@@ -27,7 +27,9 @@ const Sidebar = ({ handlemenuClick }) => {
                         متاورس فارسی
                     </h1>
                     <button onClick={handlemenuClick}>
-                        <img className="w-[24px] h-[24px] bg-white object-contain" src="/images/x-mark.svg" alt="x-mark"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="fill-white w-[24px] h-[24px]">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
                     </button>
                 </div>
                 <div class="h-[1px] bg-gray-600 my-2"></div>
