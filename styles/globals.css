@@ -95,6 +95,29 @@
   );
 }
 
+.explore-gradient {
+  position: absolute;
+  width: 400px;
+  height: 640px;
+  left: 0px;
+  bottom: 0px;
+  background: rgb(122,235,251);
+  background: linear-gradient(125deg, rgba(122,235,251,1) 2%, rgba(210,37,225,1) 24%, rgba(37,101,225,1) 55%, rgba(207,236,253,1) 100%);
+  filter: blur(90px);
+}
+
+.insight-gradient {
+  position: absolute;
+  width: 230px;
+  height: 1000px;
+  right: 0px;
+  bottom: 0px;
+  background: rgb(37,101,225);
+  background: linear-gradient(125deg, rgba(37,101,225,1) 48%, rgba(255,255,255,1) 85%);
+  filter: blur(200px);
+  
+}
+
 .map1-gradient {
   background: linear-gradient(180deg, #D46062 0%, #880383 100%);
   filter: blur(100px)

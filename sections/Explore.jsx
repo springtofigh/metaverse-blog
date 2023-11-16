@@ -13,6 +13,7 @@ const Explore = () => {
   const [active , setActive] = useState("جهان دوم")
   return (
     <div className={`${styles.paddings}`} id="explore">
+      <div className='explore-gradient'/>
       <motion.div
       variants={staggerContainer}
       initial="hidden"
