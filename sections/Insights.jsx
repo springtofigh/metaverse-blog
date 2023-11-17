@@ -21,7 +21,7 @@ const Insights = () => {
       >
         <TypingText title="| بینش متاورس" textStyles="text-center" />
         <TitleText  title={<>بینش در مورد متاورس</>} textStyles="text-center" />
-        <div className='mt-[50px] flex flex-col gap-8'>
+        <div className='mt-[50px] flex flex-col gap-8 z-10'>
           {
             insights.map((insight, index)=> (
               <InsightCard
