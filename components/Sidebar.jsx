@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 
 const Sidebar = ({ handlemenuClick }) => {
@@ -12,6 +12,23 @@ const Sidebar = ({ handlemenuClick }) => {
         setIsSidebarOpen(!isSidebarOpen);
     };
 
+    const ref = useRef(null);
+
+    useEffect(() => {
+        const handleOutSideClick = (event) => {
+          if (!ref.current?.contains(event.target)) {
+            console.log("Outside Clicked. ");
+            handlemenuClick()
+          }
+        };
+    
+        window.addEventListener("mousedown", handleOutSideClick);
+
+            return () => {
+      window.removeEventListener("mousedown", handleOutSideClick);
+    };
+  }, [ref]);
+
   return (
     <>
         {
@@ -20,6 +37,7 @@ const Sidebar = ({ handlemenuClick }) => {
             <div className='overlay z-30' onClick={() => setBgBlackOverly(true)}>
             <div
             class="fixed top-0 bottom-0 w-[300px] right-0 p-2 text-center bg-gray-900 overflow-y-auto"
+            ref={ref}
             >
                 <div class="text-gray-100 text-xl">
                 <div class="p-2.5 mt-1 flex items-center justify-between">
