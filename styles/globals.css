@@ -101,13 +101,13 @@
   height: 640px;
   left: 0px;
   bottom: 0px;
-  background: rgb(122,235,251);
   background: linear-gradient(
     125deg, rgba(122,235,251,1) 2%,
     rgba(210,37,225,1) 24%,
     rgba(37,101,225,1) 55%,
     rgba(207,236,253,1) 100%);
   filter: blur(90px);
+  z-index: 0;
 }
 
 .world-gradient {
