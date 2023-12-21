@@ -1,7 +1,7 @@
 import styles from '../styles';
 
 const NewFeatures = ({ title, subtitle, imgUrl }) => (
-  <div className="flex flex-col flex-1 min-w-[210px] sm:max-w-[250px]">
+  <div className="flex flex-col flex-1 min-w-[210px] z-10 sm:max-w-[250px]">
     <div className={`${styles.flexCenter} w-[70px] h-[70px] bg-[#323F5D] rounded-[24px]`}>
       <img src={imgUrl} alt="icon" className="w-1/2 h-1/2 object-contain" />
     </div>
